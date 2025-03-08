@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pullapuoti</title>
+    <script src="pulla.js" defer></script>
+    <link rel= "stylesheet" href="main.css"> 
+   
+</head>
+
+<body>
+    <h1>PULLAPUOTI</h1>
+    <h2>Pisteet: <span id="score">0</span></h2>
+
+    <div class="container">
+        <div id="pulla-container">
+            <img id="pulla" src="images/pulla.png" alt="Pulla">
+            <div>
+                <div class="button-box" id="addPulla">
+                    <img src="images/pulla.png" alt="Pulla-ikoni"> Lisää Pullaa
+                </div>
+                <div class="button-box" id="addLeipuri">
+                    <img src="images/leipuri.png" alt="Leipuri-ikoni"> Lisää Leipuri
+                </div>
+                <div class="button-box" id="addPuoti">
+                    <img src="images/puoti.PNG" alt="Puoti-ikoni"> Lisää Puoti
+                </div>
+            </div>
+            <div id="info-box">
+                <h3>Pullapuoti-peli</h3>
+                <p>👆 Klikkaa pullaa kerätäksesi pisteitä!</p>
+                <p><img src="images/pulla.png" alt="Pulla-ikoni">Kun saavutat 50 pistettä, voit aktivoida "Lisää pullaa" -painikkeen: +2 pistettä klikkauksella.</p>
+                <p><img src="images/leipuri.png" alt="Leipuri-ikoni">Kun saavut 200 pistettä, voit aktivoida "Lisää Leipuri" -painikkeen: +10 pistettä klikkauksella.</p>
+                <p><img src="images/puoti.PNG" alt="Puoti-ikoni">Kun saavut 1000 pistettä, voit aktivoida "Lisää Puoti" -painikkeen: +100 pistettä klikkauksella. </p>
+                <p>🏆 Kun saavutat 10000 pistettä, peli päättyy ja sinusta tulee Suomen pullamestari!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="endMessage">
+        Olet Suomen Pullamestari!
+    </div>
+
+</body>
+</html>
+
+        
